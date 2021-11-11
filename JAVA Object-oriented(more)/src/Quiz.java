@@ -26,7 +26,7 @@ public class Quiz {
 	 * @param q The question to be added.
 	 */
 	public void setQuestion(int n, Question q) {
-		if ((n < 0) || (n > this.numberOfQuestions)) {
+		if ((n < 0) || (n >= this.numberOfQuestions)) {
 			throw new IllegalArgumentException("Index out of range: " + n);
 		} else {
 			this.questions[n] = q;
