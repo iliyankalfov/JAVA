@@ -11,7 +11,6 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.SwingUtilities;
-import java.awt.Color;
 
 @SuppressWarnings("serial")
 public class GameWindow extends JFrame implements ActionListener {
@@ -71,7 +70,7 @@ public class GameWindow extends JFrame implements ActionListener {
 	}
 
 	/*
-	 * A method checking if the game ended because there was a winner
+	 * A method checking if the game ended because there was a winner + Game logic
 	 */
 	private boolean endGameBecauseOfWinner() {
 		boolean endGame = false;
